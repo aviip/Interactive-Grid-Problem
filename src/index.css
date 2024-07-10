@@ -1,0 +1,19 @@
+.gird--container {
+  display: grid;
+  grid-template-columns: repeat(3, 90px);
+  gap: 5px;
+}
+
+.grid--box {
+  height: 80px;
+  width: 80px;
+  border: 1px solid;
+}
+
+.active {
+  background-color: burlywood;
+}
+
+.disable--box {
+  pointer-events: none;
+}
